@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry Goette | Professional Portfolio</title>
+    <title>Henry Goette | Professionelle Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -17,14 +13,10 @@
                 <a href="/">Henry Goette</a>
             </div>
             <nav class="nav">
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-list">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,149 +25,43 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero-content">
-                    <h1>Hello, I'm <span class="highlight">Henry Goette</span></h1>
-                    <h2>Professional [Your Title]</h2>
-                    <p class="hero-text">I specialize in [your specialty]. Passionate about [your passion].</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                        <a href="#projects" class="btn btn-secondary">View My Work</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="https://via.placeholder.com/400x400" alt="Henry Goette" class="profile-photo">
-                </div>
+                <h1>Henry Goette</h1>
+                <h2>Ihre professionelle Lösung</h2>
+                <a href="#kontakt" class="btn">Kontakt aufnehmen</a>
             </div>
         </section>
 
         <section id="about" class="section about">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
+                <h2 class="section-title">Über mich</h2>
                 <div class="about-content">
-                    <div class="about-text">
-                        <p>Hello! I'm Henry Goette, a [your profession] based in [your location]. With over [X] years of experience in [your field], I've developed a strong passion for [specific aspects of your work].</p>
-                        <p>My approach combines [key skills or methodologies] with [personal philosophy or unique approach]. I believe in [core belief or value proposition].</p>
-                        <p>When I'm not working, you can find me [personal interests or hobbies].</p>
-                        <div class="skills">
-                            <h3>Skills & Expertise</h3>
-                            <ul class="skills-list">
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 4</li>
-                                <li>Skill 5</li>
-                                <li>Skill 6</li>
-                            </ul>
-                        </div>
+                    <p>Ich bin Henry Goette, Experte in meinem Fachgebiet mit langjähriger Erfahrung. Mein Fokus liegt auf maßgeschneiderten Lösungen für Ihre individuellen Anforderungen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="leistungen" class="section services">
+            <div class="container">
+                <h2 class="section-title">Leistungen</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Leistung 1</h3>
+                        <p>Professionelle Dienstleistung mit hohem Qualitätsstandard.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Leistung 2</h3>
+                        <p>Individuelle Beratung und maßgeschneiderte Lösungen.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="section experience">
+        <section id="kontakt" class="section contact">
             <div class="container">
-                <h2 class="section-title">Professional Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">2020 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Job Title</h3>
-                            <h4>Company Name</h4>
-                            <p>Description of responsibilities and achievements in this role. Highlight key projects and impacts.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2017 - 2020</div>
-                        <div class="timeline-content">
-                            <h3>Previous Job Title</h3>
-                            <h4>Previous Company</h4>
-                            <p>Description of responsibilities and achievements in this role. Highlight key projects and impacts.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section projects">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/400x250" alt="Project 1">
-                        </div>
-                        <div class="project-info">
-                            <h3>Project Name 1</h3>
-                            <p>Brief description of the project, technologies used, and your role.</p>
-                            <div class="project-links">
-                                <a href="#" class="btn btn-small">View Details</a>
-                                <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/400x250" alt="Project 2">
-                        </div>
-                        <div class="project-info">
-                            <h3>Project Name 2</h3>
-                            <p>Brief description of the project, technologies used, and your role.</p>
-                            <div class="project-links">
-                                <a href="#" class="btn btn-small">View Details</a>
-                                <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/400x250" alt="Project 3">
-                        </div>
-                        <div class="project-info">
-                            <h3>Project Name 3</h3>
-                            <p>Brief description of the project, technologies used, and your role.</p>
-                            <div class="project-links">
-                                <a href="#" class="btn btn-small">View Details</a>
-                                <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <h3>Contact Information</h3>
-                        <p>Feel free to reach out for collaborations or just to say hello!</p>
-                        <ul class="contact-details">
-                            <li><i class="fas fa-envelope"></i> <a href="mailto:henry@henrygoette.com">henry@henrygoette.com</a></li>
-                            <li><i class="fas fa-phone"></i> [Your Phone Number]</li>
-                            <li><i class="fas fa-map-marker-alt"></i> [Your Location]</li>
-                        </ul>
-                        <div class="social-links">
-                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-info">
+                    <p>E-Mail: <a href="mailto:kontakt@henrygoette.com">kontakt@henrygoette.com</a></p>
+                    <p>Telefon: +49 123 456789</p>
                 </div>
             </div>
         </section>
@@ -183,22 +69,7 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="/">Henry Goette</a>
-                </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-copyright">
-                    <p>&copy; <span id="year"></span> Henry Goette. All rights reserved.</p>
-                </div>
-            </div>
+            <p>&copy; <span id="jahr"></span> Henry Goette. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
