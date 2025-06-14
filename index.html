@@ -3,73 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry Goette | Professionelle Website</title>
+    <title>Henry Goette | Student</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="/">Henry Goette</a>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">Henry Goette</a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Start</a></li>
                     <li><a href="#about">Über mich</a></li>
-                    <li><a href="#leistungen">Leistungen</a></li>
-                    <li><a href="#kontakt">Kontakt</a></li>
+                    <li><a href="#skills">Fähigkeiten</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="container">
-                <h1>Henry Goette</h1>
-                <h2>Ihre professionelle Lösung</h2>
-                <a href="#kontakt" class="btn">Kontakt aufnehmen</a>
+                <div class="hero-content">
+                    <h1>Hallo, ich bin Henry Goette</h1>
+                    <h2>Student & Entwickler</h2>
+                    <a href="#contact" class="btn">Kontakt</a>
+                </div>
             </div>
         </section>
 
-        <section id="about" class="section about">
+        <section id="about" class="about">
             <div class="container">
                 <h2 class="section-title">Über mich</h2>
                 <div class="about-content">
-                    <p>Ich bin Henry Goette, Experte in meinem Fachgebiet mit langjähriger Erfahrung. Mein Fokus liegt auf maßgeschneiderten Lösungen für Ihre individuellen Anforderungen.</p>
+                    <div class="about-text">
+                        <p>Ich bin ein motivierter Student mit Interesse an Webentwicklung und Technologie. Aktuell studiere ich [Ihr Studienfach] an der [Ihre Universität].</p>
+                        <p>In meiner Freizeit beschäftige ich mich gerne mit neuen Technologien und arbeite an persönlichen Projekten.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="leistungen" class="section services">
+        <section id="skills" class="skills">
             <div class="container">
-                <h2 class="section-title">Leistungen</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>Leistung 1</h3>
-                        <p>Professionelle Dienstleistung mit hohem Qualitätsstandard.</p>
+                <h2 class="section-title">Meine Fähigkeiten</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML & CSS</h3>
                     </div>
-                    <div class="service-card">
-                        <h3>Leistung 2</h3>
-                        <p>Individuelle Beratung und maßgeschneiderte Lösungen.</p>
+                    <div class="skill">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-database"></i>
+                        <h3>Datenbanken</h3>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="kontakt" class="section contact">
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Meine Projekte</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Projekt 1</h3>
+                        <p>Eine kurze Beschreibung meines ersten Projekts.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Projekt 2</h3>
+                        <p>Eine kurze Beschreibung meines zweiten Projekts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
             <div class="container">
                 <h2 class="section-title">Kontakt</h2>
-                <div class="contact-info">
-                    <p>E-Mail: <a href="mailto:kontakt@henrygoette.com">kontakt@henrygoette.com</a></p>
-                    <p>Telefon: +49 123 456789</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Nachricht" required></textarea>
+                    <button type="submit" class="btn">Senden</button>
+                </form>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-xing"></i></a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p>&copy; <span id="jahr"></span> Henry Goette. Alle Rechte vorbehalten.</p>
+            <p>&copy; <span id="year"></span> Henry Goette. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
